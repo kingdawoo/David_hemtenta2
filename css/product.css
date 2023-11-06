@@ -1,0 +1,46 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.products {
+    display: flex;
+}
+
+.products-item {
+    text-align: center;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.price {
+    color: red;
+}
+
+form:not(#del-form) {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-top: 2vh;
+}
+
+form {
+    display: flex;
+    width: 20%;
+    margin-top: 2vh;
+}
+
+form>*:not(input, textarea) {
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+}

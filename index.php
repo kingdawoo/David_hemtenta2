@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Initialize</title>
+    <title>Meny</title>
 </head>
 <body>
-    <a href="">Lägg till produkt</a>
-    <a href="">Se alla produkter</a>
-    <a href="">Ändra pris/bild på produkt</a>
-    <a href="">Ta bort produkt</a>
+    <a href="./funktioner/add_product.php">Lägg till produkt</a>
+    <a href="./funktioner/view_product.php">Se alla produkter</a>
+    <a href="./funktioner/edit_product.php">Ändra pris/bild på produkt</a>
+    <a href="./funktioner/delete_product.php" style="color: red;">Ta bort produkt</a>
 </body>
 </html>
 
